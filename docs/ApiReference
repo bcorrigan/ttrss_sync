@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='GitLab Community Edition' name='description'>
+<title>ApiReference | Wiki | Andrew Dolgov / tt-rss | GitLab</title>
+<link href="/gitlab/assets/favicon-f94769e0b5cd9088e7b3a6d4625d7296.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href="/gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css" media="all" rel="stylesheet" />
+<link href="/gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css" media="print" rel="stylesheet" />
+<script src="/gitlab/assets/application-cc90ef633fa73d00a7db00e373a9db2f.js"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="LC/dBSU63sk40nbrxfroYJtChmOwzEqLjPcMe9RgN+w=" name="csrf-token" />
+<script type="text/javascript">
+//<![CDATA[
+window.gon={};gon.default_issues_tracker="gitlab";gon.api_version="v3";gon.relative_url_root="/gitlab";gon.default_avatar_url="https://tt-rss.org/gitlab/assets/no_avatar-db3865844ba9e813d6764bd5420a86c0.png";gon.max_file_size=10;
+//]]>
+</script>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+<meta content='#474D57' name='theme-color'>
+<link href="/gitlab/assets/touch-icon-iphone-9cfdb4256f8e6be9625b905ed1053979.png" rel="apple-touch-icon" type="image/vnd.microsoft.icon" />
+<link href="/gitlab/assets/touch-icon-ipad-cc9bddc17e9b8bd7bf53d9a78fa78cd8.png" rel="apple-touch-icon" sizes="76x76" type="image/vnd.microsoft.icon" />
+<link href="/gitlab/assets/touch-icon-iphone-retina-617cbe60b0120c9d79d39c8d3ec1a3a3.png" rel="apple-touch-icon" sizes="120x120" type="image/vnd.microsoft.icon" />
+<link href="/gitlab/assets/touch-icon-ipad-retina-194aa86a2f9a6952b6770c44dc4f0a96.png" rel="apple-touch-icon" sizes="152x152" type="image/vnd.microsoft.icon" />
+<meta content='https://tt-rss.org/gitlab/assets/msapplication-tile-8cd39a616a5e0888389257c76cef2c2e.png' name='msapplication-TileImage'>
+<meta content='#30353E' name='msapplication-TileColor'>
+
+
+
+
+</head>
+
+<body class='ui_charcoal' data-page='projects:wikis:show'>
+
+<header class='header-expanded navbar navbar-fixed-top navbar-gitlab'>
+<div class='container'>
+<div class='header-logo'>
+<a class="home" href="/gitlab/explore"><img alt="Logo" src="/gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg" />
+<div class='gitlab-text-container'>
+<h3>GitLab</h3>
+</div>
+</a></div>
+<div class='header-content'>
+<div class='pull-right'>
+<a class="btn btn-sign-in btn-success btn-sm" href="/gitlab/users/sign_in?redirect_to_referer=yes">Sign in</a>
+</div>
+<h1 class='title'><span><a href="/gitlab/u/fox">Andrew Dolgov</a> / <a href="/gitlab/fox/tt-rss">tt-rss</a></span></h1>
+</div>
+</div>
+</header>
+
+
+<div class='page-sidebar-expanded page-with-sidebar'>
+
+<div class='sidebar-wrapper nicescroll'>
+<ul class='nav nav-sidebar'>
+<li class=""><a class="back-link" data-placement="right" href="/gitlab/" title="Back to dashboard"><i class="fa fa-caret-square-o-left fa-fw"></i>
+<span>
+Back to Dashboard
+</span>
+</a></li><li class='separate-item'></li>
+<li class="home"><a class="shortcuts-project" data-placement="right" href="/gitlab/fox/tt-rss" title="Project"><i class="fa fa-home fa-fw"></i>
+<span>
+Project
+</span>
+</a></li><li class=""><a class="shortcuts-project-activity" data-placement="right" href="/gitlab/fox/tt-rss/activity" title="Project Activity"><i class="fa fa-dashboard fa-fw"></i>
+<span>
+Activity
+</span>
+</a></li><li class=""><a class="shortcuts-tree" data-placement="right" href="/gitlab/fox/tt-rss/tree/master" title="Files"><i class="fa fa-files-o fa-fw"></i>
+<span>
+Files
+</span>
+</a></li><li class=""><a class="shortcuts-commits" data-placement="right" href="/gitlab/fox/tt-rss/commits/master" title="Commits"><i class="fa fa-history fa-fw"></i>
+<span>
+Commits
+</span>
+</a></li><li class=""><a class="shortcuts-network" data-placement="right" href="/gitlab/fox/tt-rss/network/master" title="Network"><i class="fa fa-code-fork fa-fw"></i>
+<span>
+Network
+</span>
+</a></li><li class=""><a class="shortcuts-graphs" data-placement="right" href="/gitlab/fox/tt-rss/graphs/master" title="Graphs"><i class="fa fa-area-chart fa-fw"></i>
+<span>
+Graphs
+</span>
+</a></li><li class=""><a data-placement="right" href="/gitlab/fox/tt-rss/milestones" title="Milestones"><i class="fa fa-clock-o fa-fw"></i>
+<span>
+Milestones
+</span>
+</a></li><li class=""><a class="shortcuts-issues" data-placement="right" href="/gitlab/fox/tt-rss/issues" title="Issues"><i class="fa fa-exclamation-circle fa-fw"></i>
+<span>
+Issues
+<span class='count issue_counter'>0</span>
+</span>
+</a></li><li class=""><a class="shortcuts-merge_requests" data-placement="right" href="/gitlab/fox/tt-rss/merge_requests" title="Merge Requests"><i class="fa fa-tasks fa-fw"></i>
+<span>
+Merge Requests
+<span class='count merge_counter'>0</span>
+</span>
+</a></li><li class=""><a data-placement="right" href="/gitlab/fox/tt-rss/labels" title="Labels"><i class="fa fa-tags fa-fw"></i>
+<span>
+Labels
+</span>
+</a></li><li class="active"><a class="shortcuts-wiki" data-placement="right" href="/gitlab/fox/tt-rss/wikis/home" title="Wiki"><i class="fa fa-book fa-fw"></i>
+<span>
+Wiki
+</span>
+</a></li><li class=""><a class="shortcuts-snippets" data-placement="right" href="/gitlab/fox/tt-rss/snippets" title="Snippets"><i class="fa fa-file-text-o fa-fw"></i>
+<span>
+Snippets
+</span>
+</a></li></ul>
+
+<div class='collapse-nav'>
+<a class="toggle-nav-collapse" href="#" title="Open/Close"><i class="fa fa-angle-left"></i></a>
+
+</div>
+</div>
+<div class='content-wrapper'>
+<div class='container-fluid'>
+<div class='content'>
+<div class='flash-container'>
+</div>
+
+<div class='clearfix'>
+<ul class='nav nav-tabs'>
+<li class=""><a href="/gitlab/fox/tt-rss/wikis/home">Home</a>
+</li><li class=""><a href="/gitlab/fox/tt-rss/wikis/pages">Pages</a>
+</li><li class=""><a href="/gitlab/fox/tt-rss/wikis/git_access"><i class='fa fa-download'></i>
+Git Access
+</a></li></ul>
+<div class='modal' id='modal-new-wiki'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<a class='close' data-dismiss='modal' href='#'>×</a>
+<h3 class='page-title'>New Wiki Page</h3>
+</div>
+<div class='modal-body'>
+<label for="new_wiki_path"><span>Page slug</span>
+</label><input class="form-control" data-wikis-path="/gitlab/fox/tt-rss/wikis" id="new_wiki_path" name="new_wiki_path" placeholder="how-to-setup" required="required" type="text" />
+<p class='hidden text-danger' data-error='slug'>
+The page slug is invalid. Please don't use characters other then: a-z 0-9 _ - and /
+</p>
+<p class='hint'>
+Please don't use spaces.
+</p>
+</div>
+<div class='modal-footer'>
+<a class="build-new-wiki btn btn-create" href="#">Build</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<h3 class='page-title'>
+ApiReference
+<span class='pull-right'>
+<a class="btn btn-grouped" href="/gitlab/fox/tt-rss/wikis/ApiReference/history">Page History
+</a></span>
+
+</h3>
+<hr>
+<div class='wiki-holder'>
+<div class='wiki'>
+<h1>&#x000A;<a id="json-api-reference" class="anchor" href="#json-api-reference" aria-hidden="true"></a>JSON API Reference</h1>&#x000A;&#x000A;<p>Supported since version:1.4.0.</p>&#x000A;&#x000A;<p>The API is pluggable, plugins can use host&#x000A;<code>add_api_method()</code> to add custom API calls (see&#x000A;<code>classes/pluginhost.php</code> for details).</p>&#x000A;&#x000A;<h2>&#x000A;<a id="summary" class="anchor" href="#summary" aria-hidden="true"></a>Summary</h2>&#x000A;&#x000A;<p>The API is stateful. You need to login and maintain a session ID to&#x000A;perform further operations. Session ID should be specified using JSON&#x000A;parameter <strong>sid</strong>. I.e.</p>&#x000A;<pre class="code highlight white plaintext"><code>$ curl -d '{"sid":"your-session-id","op":"getVersion"}' http://example.dom/tt-rss/api/&#x000A;</code></pre>&#x000A;&#x000A;<p>All API calls output JSON-encoded data. API can be enabled or disabled&#x000A;per-user in the preferences. Client parameters should be passed encoded&#x000A;using JSON in HTTP POST data (supported since version:1.5.3). Older&#x000A;versions allowed passing parameters using HTTP GET and POST, but this is&#x000A;no longer supported.</p>&#x000A;&#x000A;<h2>&#x000A;<a id="testing-api-calls-using-curl" class="anchor" href="#testing-api-calls-using-curl" aria-hidden="true"></a>Testing API calls (using curl)</h2>&#x000A;<pre class="code highlight white plaintext"><code>$ curl -d '{"op":"login","user":"you","password":"xxx"}' http://example.dom/tt-rss/api/&#x000A;</code></pre>&#x000A;&#x000A;<p>Most of the calls (except login, logout, isLoggedIn) require valid login&#x000A;session or will return this error object:&#x000A;<code>{"error":"NOT_LOGGED_IN"}</code></p>&#x000A;&#x000A;<h2>&#x000A;<a id="output-format" class="anchor" href="#output-format" aria-hidden="true"></a>Output format</h2>&#x000A;&#x000A;<h3>&#x000A;<a id="150-and-above" class="anchor" href="#150-and-above" aria-hidden="true"></a>1.5.0 and above</h3>&#x000A;&#x000A;<p>All API methods return JSON data like this:</p>&#x000A;&#x000A;<p><code>{"seq":0,"status":0,"content":{"version":"1.4.3.1"}}</code></p>&#x000A;&#x000A;<ul>&#x000A;<li>  seq (integer) is the sequence number supplied by client (&amp;seq=131)</li>&#x000A;<li>  status (integer) indicates whether request has been completed&#x000A;successfully, can be either 0 (API_STATUS_OK) or 1&#x000A;(API_STATUS_ERR)</li>&#x000A;<li>  content is the actual reply content, as documented below in method&#x000A;descriptions.</li>&#x000A;</ul>&#x000A;&#x000A;<h3>&#x000A;<a id="143-and-below-obsolete" class="anchor" href="#143-and-below-obsolete" aria-hidden="true"></a>1.4.3 and below (obsolete)</h3>&#x000A;&#x000A;<p>Methods return the “content” object below, sequence numbers and statuses&#x000A;are not supported.</p>&#x000A;&#x000A;<h2>&#x000A;<a id="methods" class="anchor" href="#methods" aria-hidden="true"></a>Methods</h2>&#x000A;&#x000A;<h3>&#x000A;<a id="getapilevel-since-version158-api-level-1" class="anchor" href="#getapilevel-since-version158-api-level-1" aria-hidden="true"></a>getApiLevel (since version:1.5.8, api level 1)</h3>&#x000A;&#x000A;<p>Return an abstracted integer API version level, increased with each API&#x000A;functionality change. This is the proper way to detect host API&#x000A;functionality, instead of using getVersion.</p>&#x000A;&#x000A;<p><code>{"level":1}</code></p>&#x000A;&#x000A;<p>Whether tt-rss returns error for this method (e.g. version:1.5.7 and&#x000A;below) client should assume API level 0.</p>&#x000A;&#x000A;<h3>&#x000A;<a id="getversion" class="anchor" href="#getversion" aria-hidden="true"></a>getVersion</h3>&#x000A;&#x000A;<p>Returns tt-rss version. As of, version:1.5.8 it is not recommended to&#x000A;use this to detect API functionality, please use getApiLevel instead.</p>&#x000A;&#x000A;<p><code>{"version":"1.4.0"}</code></p>&#x000A;&#x000A;<h3>&#x000A;<a id="login" class="anchor" href="#login" aria-hidden="true"></a>login</h3>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<ul>&#x000A;<li>  user (string)</li>&#x000A;<li>  password (string)</li>&#x000A;</ul>&#x000A;&#x000A;<p>Returns client session ID.</p>&#x000A;&#x000A;<p><code>{"session_id":"xxx"}</code></p>&#x000A;&#x000A;<p>It can also return several error objects:</p>&#x000A;&#x000A;<ul>&#x000A;<li>  If API is disabled for this user:&#x000A;<code>error: "API_DISABLED"</code>&#x000A;</li>&#x000A;<li>  If specified username and password are incorrect:&#x000A;<code>error: "LOGIN_ERROR"</code>&#x000A;</li>&#x000A;</ul>&#x000A;&#x000A;<p>In case it isn’t immediately obvious, you have to login and get a&#x000A;session ID even if you are using single user mode. You can omit user and&#x000A;password parameters.</p>&#x000A;&#x000A;<p>On version:1.6.0 and above login also returns current API level as an&#x000A;<code>api_level</code> integer, you can use that instead of calling&#x000A;getApiLevel after login.</p>&#x000A;&#x000A;<h3>&#x000A;<a id="logout" class="anchor" href="#logout" aria-hidden="true"></a>logout</h3>&#x000A;&#x000A;<p>Closes your login session. Returns either status-message <code>{"status":"OK"}</code> or an error (e.g. <code>{"error":"NOT_LOGGED_IN"}</code>)</p>&#x000A;&#x000A;<h3>&#x000A;<a id="isloggedin" class="anchor" href="#isloggedin" aria-hidden="true"></a>isLoggedIn</h3>&#x000A;&#x000A;<p>Returns a status message with boolean value showing whether your client&#x000A;(e.g. specific session ID) is currently logged in.</p>&#x000A;&#x000A;<p><code>{"status":false}</code></p>&#x000A;&#x000A;<h3>&#x000A;<a id="getunread" class="anchor" href="#getunread" aria-hidden="true"></a>getUnread</h3>&#x000A;&#x000A;<p>Returns an integer value of currently unread articles.</p>&#x000A;&#x000A;<p><code>{"unread":"992"}</code></p>&#x000A;&#x000A;<h3>&#x000A;<a id="getcounters" class="anchor" href="#getcounters" aria-hidden="true"></a>getCounters</h3>&#x000A;&#x000A;<p>Returns JSON-encoded counter information. Requires version:1.5.0.</p>&#x000A;&#x000A;<ul>&#x000A;<li>output_mode (string, default: flc) - what kind of information to return (f - feeds, l - labels, c - categories, t - tags)</li>&#x000A;</ul>&#x000A;&#x000A;<h3>&#x000A;<a id="getfeeds" class="anchor" href="#getfeeds" aria-hidden="true"></a>getFeeds</h3>&#x000A;&#x000A;<p>Returns JSON-encoded list of feeds. The list includes category id,&#x000A;title, feed url, etc.</p>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<ul>&#x000A;<li>  cat_id (integer) - return feeds under category cat_id</li>&#x000A;<li>  unread_only (bool) - only return feeds which have unread articles</li>&#x000A;<li>  limit (integer) - limit amount of feeds returned to this value</li>&#x000A;<li>  offset (integer) - skip this amount of feeds first</li>&#x000A;<li>  include_nested (bool) - include child categories (as Feed objects&#x000A;with is_cat set) <strong>requires version:1.6.0</strong>&#x000A;</li>&#x000A;</ul>&#x000A;&#x000A;<p>Pagination:</p>&#x000A;&#x000A;<p>Limit and offset are useful if you need feedlist pagination. If you use&#x000A;them, you shouldn’t filter by unread, handle filtering in your app&#x000A;instead.</p>&#x000A;&#x000A;<p>Special category IDs are as follows:</p>&#x000A;&#x000A;<ul>&#x000A;<li> 0 Uncategorized</li>&#x000A;<li>-1 Special (e.g. Starred, Published, Archived, etc.)</li>&#x000A;<li>-2 Labels</li>&#x000A;</ul>&#x000A;&#x000A;<p>Added in version:1.5.0:</p>&#x000A;&#x000A;<ul>&#x000A;<li>  -3 All feeds, excluding virtual feeds (e.g. Labels and such)</li>&#x000A;<li>  -4 All feeds, including virtual feeds</li>&#x000A;</ul>&#x000A;&#x000A;<p>Known bug: Prior to version:1.5.0 passing null or 0 cat_id to this&#x000A;method returns full list of feeds instead of Uncategorized feeds only.</p>&#x000A;&#x000A;<h3>&#x000A;<a id="getcategories" class="anchor" href="#getcategories" aria-hidden="true"></a>getCategories</h3>&#x000A;&#x000A;<p>Returns JSON-encoded list of categories with unread counts.</p>&#x000A;&#x000A;<ul>&#x000A;<li>  unread_only (bool) - only return categories which have unread&#x000A;articles</li>&#x000A;<li>  enable_nested (bool) - switch to nested mode, only returns topmost&#x000A;categories <strong>requires version:1.6.0</strong>&#x000A;</li>&#x000A;<li>  include_empty (bool) - include empty categories <strong>requires&#x000A;version:1.7.6</strong>&#x000A;</li>&#x000A;</ul>&#x000A;&#x000A;<p>Nested mode in this case means that a flat list of <strong>only</strong> topmost&#x000A;categories is returned and unread counters include counters for child&#x000A;categories.</p>&#x000A;&#x000A;<p>This should be used as a starting point, to display a root list of all&#x000A;(for backwards compatibility) or topmost categories, use getFeeds to&#x000A;traverse deeper.</p>&#x000A;&#x000A;<h3>&#x000A;<a id="getheadlines" class="anchor" href="#getheadlines" aria-hidden="true"></a>getHeadlines</h3>&#x000A;&#x000A;<p>Returns JSON-encoded list of headlines.</p>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<ul>&#x000A;<li>  feed_id (integer) - only output articles for this feed</li>&#x000A;<li>  limit (integer) - limits the amount of returned articles (see below)</li>&#x000A;<li>  skip (integer) - skip this amount of feeds first</li>&#x000A;<li>  filter (string) - currently unused (?)</li>&#x000A;<li>  is_cat (bool) - requested feed_id is a category</li>&#x000A;<li>  show_excerpt (bool) - include article excerpt in the output</li>&#x000A;<li>  show_content (bool) - include full article text in the output</li>&#x000A;<li>  view_mode (string = all_articles, unread, adaptive, marked,&#x000A;updated)</li>&#x000A;<li>  include_attachments (bool) - include article attachments (e.g.&#x000A;enclosures) <strong>requires version:1.5.3</strong>&#x000A;</li>&#x000A;<li>  since_id (integer) - only return articles with id greater than&#x000A;since_id <strong>requires version:1.5.6</strong>&#x000A;</li>&#x000A;<li>  include_nested (boolean) - include articles from child categories&#x000A;<strong>requires version:1.6.0</strong>&#x000A;</li>&#x000A;<li>  order_by (string) - override default sort order <strong>requires&#x000A;version:1.7.6</strong>&#x000A;</li>&#x000A;<li>  sanitize (bool) - sanitize content or not <strong>requires version:1.8</strong>&#x000A;(default: true)</li>&#x000A;<li>  force_update (bool) - try to update feed before showing headlines&#x000A;<strong>requires version:1.14 (api 9)</strong> (default: false)</li>&#x000A;<li>  has_sandbox (bool) - indicate support for sandboxing of iframe&#x000A;elements <strong><span></span></strong> (default: false)</li>&#x000A;<li>  include_header (bool) - adds status information when returning&#x000A;headlines, instead of array(articles) return value changes to&#x000A;array(header, array(articles)) (api 12)</li>&#x000A;</ul>&#x000A;&#x000A;<p>Limit:</p>&#x000A;&#x000A;<p>Before <strong>API level 6</strong> maximum amount of returned headlines is capped at&#x000A;60, API 6 and above sets it to 200.</p>&#x000A;&#x000A;<p>This parameters might change in the future (supported since <strong>API level&#x000A;2</strong>):</p>&#x000A;&#x000A;<ul>&#x000A;<li>  search (string) - search query (e.g. a list of keywords)</li>&#x000A;<li>  search_mode (string) - all_feeds, this_feed (default), this_cat&#x000A;(category containing requested feed)</li>&#x000A;<li>  match_on (string) - ignored</li>&#x000A;</ul>&#x000A;&#x000A;<p>Special feed IDs are as follows:</p>&#x000A;&#x000A;<ul>&#x000A;<li>  -1 starred</li>&#x000A;<li>  -2 published</li>&#x000A;<li>  -3 fresh</li>&#x000A;<li>  -4 all articles</li>&#x000A;<li>  0 - archived</li>&#x000A;<li>  IDs &lt; -10 labels</li>&#x000A;</ul>&#x000A;&#x000A;<p>Sort order values:</p>&#x000A;&#x000A;<ul>&#x000A;<li>  date_reverse - oldest first</li>&#x000A;<li>  feed_dates - newest first, goes by feed date</li>&#x000A;<li>  (nothing) - default</li>&#x000A;</ul>&#x000A;&#x000A;<h3>&#x000A;<a id="updatearticle" class="anchor" href="#updatearticle" aria-hidden="true"></a>updateArticle</h3>&#x000A;&#x000A;<p>Update information on specified articles.</p>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<ul>&#x000A;<li>  article_ids (comma-separated list of integers) - article IDs to&#x000A;operate on</li>&#x000A;<li>  mode (integer) - type of operation to perform (0 - set to false, 1 -&#x000A;set to true, 2 - toggle)</li>&#x000A;<li>  field (integer) - field to operate on (0 - starred, 1 - published, 2 - unread, 3 - article note <strong>since api level 1</strong>)</li>&#x000A;<li>  data (string) - optional data parameter when setting note field&#x000A;(since <strong>api level 1</strong>)</li>&#x000A;</ul>&#x000A;&#x000A;<p>E.g. to set unread status of articles X and Y to false use the&#x000A;following:</p>&#x000A;&#x000A;<p><code>?article_ids=X,Y&amp;mode=0&amp;field=2</code></p>&#x000A;&#x000A;<p>Since version:1.5.0 returns a status message:</p>&#x000A;&#x000A;<p><code>{"status":"OK","updated":1}</code></p>&#x000A;&#x000A;<p>“Updated” is number of articles updated by the query.</p>&#x000A;&#x000A;<h3>&#x000A;<a id="getarticle" class="anchor" href="#getarticle" aria-hidden="true"></a>getArticle</h3>&#x000A;&#x000A;<p>Requests JSON-encoded article object with specific ID.</p>&#x000A;&#x000A;<ul>&#x000A;<li>  article_id (integer) - article ID to return <strong>as of 15.10.2010&#x000A;git</strong> or version:1.5.0 supports comma-separated list of IDs</li>&#x000A;</ul>&#x000A;&#x000A;<p>Since version:1.4.3 also returns article attachments.</p>&#x000A;&#x000A;<h3>&#x000A;<a id="getconfig" class="anchor" href="#getconfig" aria-hidden="true"></a>getConfig</h3>&#x000A;&#x000A;<p>Returns tt-rss configuration parameters:</p>&#x000A;&#x000A;<p><code>{"icons_dir":"icons","icons_url":"icons","daemon_is_running":true,"num_feeds":71}</code></p>&#x000A;&#x000A;<ul>&#x000A;<li>  icons_dir - path to icons on the server filesystem</li>&#x000A;<li>  icons_url - path to icons when requesting them over http</li>&#x000A;<li>  daemon_is_running - whether update daemon is running</li>&#x000A;<li>  num_feeds - amount of subscribed feeds (this can be used to refresh&#x000A;feedlist when this amount changes)</li>&#x000A;</ul>&#x000A;&#x000A;<h3>&#x000A;<a id="updatefeed" class="anchor" href="#updatefeed" aria-hidden="true"></a>updateFeed</h3>&#x000A;&#x000A;<p>Tries to update specified feed. This operation is not performed in the&#x000A;background, so it might take considerable time and, potentially, be&#x000A;aborted by the HTTP server.</p>&#x000A;&#x000A;<ul>&#x000A;<li>  feed_id (integer) - ID of feed to update</li>&#x000A;</ul>&#x000A;&#x000A;<p>Returns status-message if the operation has been completed.</p>&#x000A;&#x000A;<p><code>{"status":"OK"}</code></p>&#x000A;&#x000A;<h3>&#x000A;<a id="getpref" class="anchor" href="#getpref" aria-hidden="true"></a>getPref</h3>&#x000A;&#x000A;<p>Returns preference value of specified key.</p>&#x000A;&#x000A;<ul>&#x000A;<li>  pref_name (string) - preference key to return value of</li>&#x000A;</ul>&#x000A;&#x000A;<p><code>{"value":true}</code></p>&#x000A;&#x000A;<h3>&#x000A;<a id="catchupfeed" class="anchor" href="#catchupfeed" aria-hidden="true"></a>catchupFeed</h3>&#x000A;&#x000A;<p>Required version: version:1.4.3</p>&#x000A;&#x000A;<p>Tries to catchup (e.g. mark as read) specified feed.</p>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<ul>&#x000A;<li>  feed_id (integer) - ID of feed to update</li>&#x000A;<li>  is_cat (boolean) - true if the specified feed_id is a category</li>&#x000A;</ul>&#x000A;&#x000A;<p>Returns status-message if the operation has been completed.</p>&#x000A;&#x000A;<p><code>{"status":"OK"}</code></p>&#x000A;&#x000A;<h3>&#x000A;<a id="getcounters-1" class="anchor" href="#getcounters-1" aria-hidden="true"></a>getCounters</h3>&#x000A;&#x000A;<p>Required version: version:1.5.0</p>&#x000A;&#x000A;<p>Returns a list of unread article counts for specified feed groups.</p>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<ul>&#x000A;<li>  output_mode (string) - Feed groups to return counters for</li>&#x000A;</ul>&#x000A;&#x000A;<p>Output mode is a character string, comprising several letters (defaults&#x000A;to “flc”):</p>&#x000A;&#x000A;<ul>&#x000A;<li>  f - actual feeds</li>&#x000A;<li>  l - labels</li>&#x000A;<li>  c - categories</li>&#x000A;<li>  t - tags</li>&#x000A;</ul>&#x000A;&#x000A;<p>Several global counters are returned as well, those can’t be disabled&#x000A;with output_mode.</p>&#x000A;&#x000A;<h3>&#x000A;<a id="getlabels-since-api-level-1" class="anchor" href="#getlabels-since-api-level-1" aria-hidden="true"></a>getLabels (since API level 1)</h3>&#x000A;&#x000A;<p>Returns list of configured labels, as an array of label objects:</p>&#x000A;&#x000A;<p><code>{"id":2,"caption":"Debian","fg_color":"#e14a00","bg_color":"#ffffff","checked":false},</code></p>&#x000A;&#x000A;<p>Before version:1.7.5</p>&#x000A;&#x000A;<p>Returned id is an internal database id of the label, you can convert it&#x000A;to the valid feed id like this:</p>&#x000A;&#x000A;<p><code>feed_id = -11 - label_id</code></p>&#x000A;&#x000A;<p>After:</p>&#x000A;&#x000A;<p>No conversion is necessary.</p>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<ul>&#x000A;<li>article_id (int) - set “checked” to true if specified article id has returned label.</li>&#x000A;</ul>&#x000A;&#x000A;<h3>&#x000A;<a id="setarticlelabel-since-api-level-1" class="anchor" href="#setarticlelabel-since-api-level-1" aria-hidden="true"></a>setArticleLabel (since API level 1)</h3>&#x000A;&#x000A;<p>Assigns article_ids to specified label.</p>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<p>* article_ids - comma-separated list of article ids\&#x000A; * label_id (int) - label id, as returned in getLabels\&#x000A; * assign (boolean) - assign or remove label</p>&#x000A;&#x000A;<p>Note: Up until version:1.15 setArticleLabel() clears the label cache for&#x000A;the specified articles. Make sure to regenerate it (e.g. by calling API&#x000A;method getLabels() for the respecting articles) when you’re using&#x000A;methods which don’t do that by themselves (e.g. getHeadlines())&#x000A;otherwise getHeadlines() will not return labels for modified articles.</p>&#x000A;&#x000A;<h3>&#x000A;<a id="sharetopublished-since-api-level-4-version160" class="anchor" href="#sharetopublished-since-api-level-4-version160" aria-hidden="true"></a>shareToPublished (since API level 4 - version:1.6.0)</h3>&#x000A;&#x000A;<p>Creates an article with specified data in the Published feed.</p>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<ul>&#x000A;<li>title - Article title (string)</li>&#x000A;<li>url - Article URL (string)</li>&#x000A;<li>content - Article content (string)</li>&#x000A;</ul>&#x000A;&#x000A;<h3>&#x000A;<a id="subscribetofeed-api-level-5-version176" class="anchor" href="#subscribetofeed-api-level-5-version176" aria-hidden="true"></a>subscribeToFeed (API level 5 - version:1.7.6)</h3>&#x000A;&#x000A;<p>Subscribes to specified feed, returns a status code. See&#x000A;subscribe_to_feed() in functions.php for details.</p>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<ul>&#x000A;<li>feed_url - Feed URL (string)</li>&#x000A;<li>category_id - Category id to place feed into (defaults to 0, Uncategorized) (int)</li>&#x000A;<li>login, password - Self explanatory (string)</li>&#x000A;</ul>&#x000A;&#x000A;<h3>&#x000A;<a id="unsubscribefeed-api-level-5-version176" class="anchor" href="#unsubscribefeed-api-level-5-version176" aria-hidden="true"></a>unsubscribeFeed (API level 5 - version:1.7.6)</h3>&#x000A;&#x000A;<p>Unsubscribes specified feed.</p>&#x000A;&#x000A;<p>Parameters:</p>&#x000A;&#x000A;<ul>&#x000A;<li>feed_id - Feed id to unsubscribe from</li>&#x000A;</ul>&#x000A;&#x000A;<h3>&#x000A;<a id="getfeedtree-api-level-5-version176" class="anchor" href="#getfeedtree-api-level-5-version176" aria-hidden="true"></a>getFeedTree (API level 5 - version:1.7.6)</h3>&#x000A;&#x000A;<ul>&#x000A;<li>include_empty (bool) - include empty categories</li>&#x000A;</ul>&#x000A;&#x000A;<p>Returns full tree of categories and feeds.</p>&#x000A;&#x000A;<p>Note: counters for most feeds are not returned with this call for&#x000A;performance reasons.</p>&#x000A;</div>
+</div>
+<hr>
+<div class='wiki-last-edit-by'>
+Last edited by Andrew Dolgov <time class="time_ago js-timeago" data-placement="top" data-toggle="tooltip" datetime="2015-07-30T07:37:20Z" title="Jul 30, 2015 7:37am">2015-07-30 10:37:20 +0300</time><script>
+//<![CDATA[
+$('.js-timeago').timeago()
+//]]>
+</script>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
+

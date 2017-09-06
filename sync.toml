@@ -1,0 +1,4 @@
+api_url="http://localhost/api/"
+user="admin"
+pass="password"
+maildir="/home/bc/workspace/ttrss_sync/maildir"
