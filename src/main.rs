@@ -230,7 +230,18 @@ fn main() {
     println!("END");
 }
 
-fn write_maildir(config: &Config, feed: &Feed, items: Vec<(&Headline, Article)>) {}
+/* 1) Write to tmp
+ * 2) Filename is time().identifier.gethostname()(replace / with \057 and : with \072)
+ * 3) identifier is just some uniq ID, whatever - we can just extract the ttrss ID?
+ * 4) mv to new
+ *
+ * The message is normally in RFC 822 format - see also RFC-1341 for MIME extensions
+ *
+ *
+ */
+fn write_maildir(config: &Config, feed: &Feed, items: Vec<(&Headline, Article)>) {
+
+}
 
 fn get_config() -> Result<Config, SyncError> {
     let mut f = try!(File::open("sync.toml"));
